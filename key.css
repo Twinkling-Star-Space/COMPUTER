@@ -1,0 +1,36 @@
+
+
+*{
+    background-color: #45474B;
+}
+
+#doc{
+    background-color:  #45474B;
+    margin-left:6px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+
+}
+
+p,li{
+    font-size: 18px;
+    color:white;
+
+}
+
+h2{
+    font-size: 18px;
+    color:white;
+    text-decoration: underline;
+
+}
+h3{
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color:white;}
