@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstsql</title>
+    <style>
+
+        *{
+            background-color: #45474B ;
+            color:white;
+        }
+        .crud{
+            vertical-align: middle;
+            margin-left:50px;
+            display:flex;
+
+        }
+
+        hr{
+            height: 4px;
+            border-color:white;
+            background-color: white;
+            margin-left:0px;
+        }
+
+        .sc1{
+            display:inline;
+            width:80pc;
+        }
+
+        .sc2{
+            display:inline;
+        }
+        p{
+            margin-top:0px;
+            font-size: 16px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h4{
+            margin-bottom: 0px;
+            font-size:24px;
+        }
+
+        #day{
+            margin-left:6px;
+            font-size: 20px;
+        }
+
+        li{
+            font-size:20px;
+        }
+
+        .c2{
+            margin-left:12px;
+        }
+    </style>
+</head>
+<body> 
+    <!--heading of the site-->
+    <div>
+        <div>
+            <h1> DATA, DATABASE, SQL (MANAGEMENT)</h1>
+            <p id="day">(Day-5)</p>
+       </div>
+       <hr>
+    <!--container-->
+      <div class="crud">
+        <!--sub-container 1-->
+        <div class="sc1">
+            <h2> Management of data, database using SQL</h2>
+            <ul>
+        <li><h4>Create</h4></li>
+        <p> This creates database, table and column</p>
+        <li><h4>Read</h4></li>
+        <p>In this we can extract a particular kind of information from the table made inside a database</p>
+        <li><h4>Update</h4></li>
+        <p>If anything is needed to be modifies we can change and update accordingly</p>
+        <li><h4>Delete</h4></li>
+        <p>The extra or column or row of no use can be deleted</p>
+       </ul>
+        </div>
+       <!--sub-container 2-->
+        <div class="sc2">
+             <img src="crud.png" width="500" height="300" ></img>
+        </div>
+        <hr>
+    </div>
+<hr>
+    <div class="c2">
+        <p>Definition: Structured Query Language</p>
+        <p>
+            SQL, or Structured Query Language, is a standardized programming language used to manage and manipulate relational databases. It allows users to perform various operations on data stored in a database, such as querying data, updating records, inserting new data, and deleting existing records. SQL is essential for interacting with databases and is widely used in various applications, from web development to data analysis.
+
+            Key components of SQL include: </p>
+            <ol>
+            <li> Queries:</li>
+            <p> Used to retrieve data from a database. The most common SQL query is the `SELECT` statement.</p>
+                <p>- Example:`SELECT * FROM employees WHERE department = 'Sales';`</p>
+            
+                <li>Data Definition Language (DDL): </li>
+               <p> Used to define and manage database structures, such as tables and indexes.</p>
+                <p>- Examples: 
+                   <ul> CREATE TABLE`
+                     <li>`ALTER TABLE`</li>
+                     <li>`DROP TABLE`.</li>
+                    </ul>
+                </p>
+                <li> Data Manipulation Language (DML):</li>
+                <p> Used for inserting, updating, and deleting data within database tables.</p>
+                 <p> - Examples:
+                    <ul> 
+                        <li> `INSERT INTO`</li> 
+                        <li>`UPDATE`, </li>
+                        <li>`DELETE`.</li>
+                </ul>
+                </p>
+            
+                <li> Data Control Language (DCL): </li>
+                <p>Used to control access to data within the database.</p>
+                <p>- Examples: 
+                    <ul>
+                        <li>`GRANT`, </li>
+                        <li>`REVOKE`.</li>
+                </ul>
+                </p>
+            
+                <li>Transaction Control Language (TCL):</li> 
+               <p> Used to manage transactions within a database to ensure data integrity.</p>
+                <p>- Examples: 
+                    <ul>
+                        <li>`COMMIT`, </li>
+                        <li>`ROLLBACK`,</li>
+                        <li>`SAVEPOINT`.</li>
+                    </ul></p>
+            </ol>
+          <p>  SQL is used by many database management systems (DBMS), including MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, and SQLite. Each DBMS may have its own extensions or variations of the SQL language, but the core syntax and functionality remain consistent across different systems  </p>
+    </div>
+     
+      <hr>
+
+
+      <div>
+        <h1> ST. XAVIER'S COLLEGE</h1>
+        <H3 style="text-align: center;">Maitighar, Kathmandu</H3>
+        <hr>
+      </div>
+
+    </div>
+</body>
+</html>
